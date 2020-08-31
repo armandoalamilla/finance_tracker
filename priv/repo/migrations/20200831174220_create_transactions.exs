@@ -1,4 +1,6 @@
 defmodule FinanceTracker.Repo.Migrations.CreateTransactions do
+  @moduledoc """Crear la tabla de transacciones ademas de
+  modificar categorias para meter fk y name"""
   use Ecto.Migration
 
   def change do

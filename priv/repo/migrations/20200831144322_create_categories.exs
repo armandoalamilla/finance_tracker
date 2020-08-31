@@ -1,4 +1,5 @@
 defmodule FinanceTracker.Repo.Migrations.CreateCategories do
+  @moduledoc """ Create table categories """
   use Ecto.Migration
 
   def change do

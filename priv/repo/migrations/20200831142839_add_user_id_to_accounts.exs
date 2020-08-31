@@ -1,4 +1,5 @@
 defmodule FinanceTracker.Repo.Migrations.AddUserIdToAccounts do
+  @moduledoc """Añadir llave foranea a la tabla de user a las cuentas"""
   use Ecto.Migration
 
   def change do
