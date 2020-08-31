@@ -2,8 +2,8 @@ use Mix.Config
 
 # Configure your database
 config :finance_tracker, FinanceTracker.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "mandi",
+  password: "mandi",
   database: "finance_tracker_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
